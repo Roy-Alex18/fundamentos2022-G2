@@ -12,17 +12,25 @@ import pe.edu.upeu.app.util.UtilsX;
 
 /**
  *
- * @author Alex
+ * @author Lab Software
  */
 public class FondoPanel extends JPanel{
     private Image image;
-    String nombreImg="";
+    public String nombreImg="";
     UtilsX obj=new UtilsX();
+
+    public FondoPanel() {
+    }
+        
     @Override
     public void paint(Graphics g){
         image=new ImageIcon(obj.getFile("secrecy-icon.png")).getImage();
-        g.drawImage(image,0,0, getWidth(),getHeight(), this);
+        g.drawImage(image, 0, 0, getWidth(), getHeight(), this);
         setOpaque(false);
         super.paint(g);
     }
+
+    
+   
+    
 }
