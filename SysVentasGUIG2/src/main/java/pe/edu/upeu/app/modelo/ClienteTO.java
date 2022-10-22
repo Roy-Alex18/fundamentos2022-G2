@@ -12,5 +12,5 @@ import lombok.Data;
  */
 @Data
 public class ClienteTO {
-    public String dniruc, nombresrs, tipo,costo;
+    public String dniruc, nombresrs, tipo, modelo, costo;
 }
