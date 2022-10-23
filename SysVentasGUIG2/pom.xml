@@ -65,7 +65,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>pe.edu.upeu.app.fundamnetos2022-G2</mainClass>
+                            <mainClass>pe.edu.upeu.app.fundamentos2022-G2</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
